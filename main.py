@@ -71,7 +71,7 @@ elif choose=='Average Faces':
             st.image(img)
 elif choose=='AI Predict':
     st.write("<div align ='center'><h2>Female Faces Classification: <br> Beautiful or Average ? </h2></div>",unsafe_allow_html=True)
-    model =load_model("C:/Users/j.elachkar/Desktop/beauty.h5")
+    model =load_model("beauty.h5")
     image1="predict1.jpg"
     image2="predict2.jpg"
     image3="predict3.jpg"
